@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.nav-links {
+    flex: 1;
+    text-align: left;
+    display: block;
+}
+
+.nav-padding {
+    padding: 8px 16px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.header {
+    width: 100%;
+    background-image:url(/images/pizza.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 90%;
+    filter: grayscale(50%);
+    padding: inherit;
+}
+
+.header-div {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header-textTop {
+    color: white;
+    font-size: 100px;
+}
+
+.header-textCenter {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    background-color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.header-textBottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 8px 16px;
+}
+
+.header-time {
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 
+}
+
+.container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    color: white;
+    background-color: black;
+    
+}
+
+.content {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.menu {
+    border: 1px solid white;
+}
+
+.navBar:hover {
+    background-color: black;
+}
+
+.header-textCenter:hover {
+    background-color: #DCDCDC;
+    color: black;
+}
+
+.nav-links ul li :hover {
+    background-color: #DCDCDC;
+    color: black;
+}
+
+*::before {
+    box-sizing: inherit;
+}
+
+*::after {
+    box-sizing: inherit;
+}
+
+
+
+
+.glux {
+    color: white;
+    background-color: black;
+    font-size: 36px;
+    text-align: center;
+    padding: 0.01em 16px;
+    
+}
+
+
+.divMenu {
+    background-color: black;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    
+}
+
+.border {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.border a {
+    text-decoration: none;
+}
+
+.navLinks {
+    border: 1px solid;
+    border-color: #616161;
+    display: flex;
+    justify-content: center;
+    
+}
+.tabPizza {
+    color: white;
+    background-color: black;
+    padding: 12px 130.3px;
+}
+
+.tabSalads {
+    color: white;
+    background-color: black;
+    padding: 12px 130.3px;
+}
+
+.tabStarter {
+    color: white;
+    background-color: black;
+    padding: 12px 130.3px;
+}
+
+
+.tabSalads:hover {
+    background-color: #F44336;
+}
+
+.tabStarter:hover {
+    background-color: #F44336;
+}
+
+.pizza {
+    background-color: white;
+    color: black;
+    padding: 32px 16px;
+    text-align: left;
+}
+
+.h1-menu {
+    font-size: 36px;
+}
+
+.h1-span {
+    color: white;
+    background-color: #616161;
+    float: right;
+    border-radius: 4px;
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.pizza-text {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    color: #757575;
+    font-size: 36px;
+}
+
+.pizza-hot {
+    color: white;
+    background-color: #F44336;
+    border-radius: 4px;
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.pizza-new {
+    color: black;
+    background-color: #9E9E9E;
+    border-radius: 4px;
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.tab-nav.active {
+    background-color: #F44336;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
