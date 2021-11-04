@@ -40,7 +40,7 @@ body, html {
 
 .header {
     width: 100%;
-    background-image:url(images/pizza.jpg);
+    background-image:url(../images/pizza.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
