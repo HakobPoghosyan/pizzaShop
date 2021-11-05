@@ -41,20 +41,17 @@ body, html {
 .header {
     width: 100%;
     background-image:url(../images/pizza.jpg);
-    background-position: center;
+    background-position: 0px 0px;
     background-size: cover;
-    position: relative;
+    display: flex;
+    justify-content: center;
     min-height: 90%;
     filter: grayscale(50%);
     padding: inherit;
+    align-items: center;
 }
 
 .header-div {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
 }
 
@@ -176,39 +173,28 @@ h1 {
     justify-content: center;
     
 }
-.tabPizza {
+
+
+.pcolor {
+    color: white;
+}
+
+.tab-btn {
     color: white;
     background-color: black;
     padding: 12px 130.3px;
-}
-
-.tabSalads {
-    color: white;
-    background-color: black;
-    padding: 12px 130.3px;
-}
-
-.tabStarter {
-    color: white;
-    background-color: black;
-    padding: 12px 130.3px;
+    cursor: pointer;
 }
 
 
-.tabSalads:hover {
+
+
+.tab-btn:hover {
     background-color: #F44336;
 }
 
-.tabStarter:hover {
-    background-color: #F44336;
-}
 
-.pizza {
-    background-color: white;
-    color: black;
-    padding: 32px 16px;
-    text-align: left;
-}
+
 
 .h1-menu {
     font-size: 36px;
@@ -224,14 +210,14 @@ h1 {
     padding-left: 8px;
 }
 
-.pizza-text {
+.menu-text {
     margin-top: 36px;
     margin-bottom: 36px;
     color: #757575;
     font-size: 36px;
 }
 
-.pizza-hot {
+.hot {
     color: white;
     background-color: #F44336;
     border-radius: 4px;
@@ -240,7 +226,7 @@ h1 {
     padding-left: 8px;
 }
 
-.pizza-new {
+.new {
     color: black;
     background-color: #9E9E9E;
     border-radius: 4px;
@@ -249,11 +235,22 @@ h1 {
     padding-left: 8px;
 }
 
-.tab-nav.active {
+.tab-btn.active {
     background-color: #F44336;
     color: white;
 }
 
+.tabs-item {
+    display: none;
+    background-color: white;
+    color: black;
+    padding: 32px 16px;
+    text-align: left;
+}
+
+.tabs-item.active {
+    display: block;
+}
 
 
 
