@@ -7,7 +7,7 @@
 body, html {
     height: 100%;
     line-height: 1.5;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .navBar {
@@ -15,12 +15,6 @@ body, html {
     width: 100%;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.66);
-}
-
-.nav-links {
-    flex: 1;
-    text-align: left;
-    display: block;
 }
 
 .nav-padding {
@@ -33,9 +27,9 @@ body, html {
 }
 
 .nav-links ul li a {
-    color: #ccc;
+    color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .header {
@@ -47,7 +41,6 @@ body, html {
     justify-content: center;
     min-height: 90%;
     filter: grayscale(50%);
-    padding: inherit;
     align-items: center;
 }
 
@@ -60,15 +53,17 @@ body, html {
     font-size: 100px;
 }
 
+.p-header{
+    padding-top: 24px;
+}
+
 .header-textCenter {
     color: white;
     font-size: 36px;
     text-align: center;
     background-color: black;
-    padding: 8px 16px;
+    padding: 12px 16px;
     text-decoration: none;
-    display: inline-block;
-    text-align: center;
 }
 
 .header-textBottom {
@@ -82,43 +77,12 @@ body, html {
     color: white;
     background-color: black;
     font-size: 24px;
-    padding-left: 8px;
-    padding-right: 8px;
-    display: inline-block;
+    padding: 4px 8px;
     text-align: center;
-}
-
-h1 {
-    font-weight: 400;
-    margin: 10px 0;
-    font-size: 
-}
-
-.container {
-    padding-top: 64px;
-    padding-bottom: 64px;
-    color: white;
-    background-color: black;
-    
-}
-
-.content {
-    font-size: 36px;
-    text-align: center;
-    padding-bottom: 64px;
-}
-
-.menu {
-    border: 1px solid white;
 }
 
 .navBar:hover {
     background-color: black;
-}
-
-.header-textCenter:hover {
-    background-color: #DCDCDC;
-    color: black;
 }
 
 .nav-links ul li :hover {
@@ -126,32 +90,27 @@ h1 {
     color: black;
 }
 
-*::before {
-    box-sizing: inherit;
+.header-textCenter:hover {
+    background-color: #DCDCDC;
+    color: black;
 }
 
-*::after {
-    box-sizing: inherit;
+h1 {
+    font-weight: 400;
+    margin: 10px 0;
 }
-
-
-
 
 .main {
     color: white;
     background-color: black;
     font-size: 36px;
     text-align: center;
-    padding: 0.01em 16px;
-    
 }
-
 
 .divMenu {
     background-color: black;
     padding-top: 64px;
     padding-bottom: 120px;
-    
 }
 
 .border {
@@ -173,26 +132,20 @@ h1 {
     justify-content: center;
 }
 
-.pcolor {
+.p-color {
     color: white;
 }
 
 .tab-btn {
     color: white;
     background-color: black;
-    padding: 12px 130.3px;
+    padding: 12px 132px;
     cursor: pointer;
 }
-
-
-
 
 .tab-btn:hover {
     background-color: #F44336;
 }
-
-
-
 
 .h1-menu {
     font-size: 36px;
@@ -250,27 +203,26 @@ h1 {
     display: block;
 }
 
-
 .article {
     background-color: #8B5F5B;
+    color: white;
+    font-size: 40px;
+    text-align: center;
 }
 
 .about {
     padding-top: 64px;
-    padding-bottom: 64px;
-    font-size: 46px;
-    color: white;
-    text-align: center;
+    padding-bottom: 80px;
 }
 
 .text-about {
     max-width: 980px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 24px;
-    color: white;
+    font-size: 25px;
     text-align: left;
     line-height: 1.3;
+    padding-top: 64px;
 }
 
 .chef {
@@ -283,66 +235,89 @@ h1 {
 .img-padding {
     padding-top: 8px;
 }
+
 .div-hours {
     max-width: 650px;
     padding-top: 32px;
-    padding-bottom: 64px;
     display: flex;
     justify-content: space-between;
     line-height: 1.2;
-    
 }
 
 .imgMap {
-    
-}
-
-.map {
+    background: url(../images/map.jpg);
     width: 100%;
+    height: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
     filter: grayscale(70%);
 }
 
 .footer {
-    padding-top: 64px;
-    padding-bottom: 64px;
     background-color: #6C7A81;
-    font-size: 36px;
     color: white;
+    font-size: 36px;
     text-align: center;
 }
 
-.div-about {
-    
+.div-footer {
+    padding-top: 64px;
+    padding-bottom: 64px;    
 }
 
+.text-footer {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.3;
+}
 
+.fyi {
+    background-color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
+.h1-footer {
+    font-size: 36px;
+}
 
+.form {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 78px;
+}
 
+.input {
+    width: 100%;
+    padding: 16px 8px;
+    font-size: 24px;
+    align-items: center;
+}
 
+.button {
+    width: 102%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
 
+.w3 {
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
 
+.a-w3 {
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.a-w3:hover {
+    color: #4CAF50;
+}
