@@ -137,7 +137,7 @@ h1 {
 
 
 
-.glux {
+.main {
     color: white;
     background-color: black;
     font-size: 36px;
@@ -150,7 +150,7 @@ h1 {
 .divMenu {
     background-color: black;
     padding-top: 64px;
-    padding-bottom: 64px;
+    padding-bottom: 120px;
     
 }
 
@@ -253,9 +253,43 @@ h1 {
 }
 
 
+.article {
+    background-color: #8B5F5B;
+}
 
+.about {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+}
 
+.text-about {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+}
 
+.chef {
+    width: 160px;
+    height: 100px;
+    border-radius: 50%;
+    float: right;
+}
+
+.div-hours {
+    max-width: 650px;
+    padding-top: 8px;
+}
+
+.span-about {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
