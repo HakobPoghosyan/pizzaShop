@@ -1,9 +1,4 @@
-@media screen and (max-width: 600px) {
-    h1 {
-        color: aqua;
-        font-size: 66px;
-    }
-
+@media only screen and (max-width: 600px) {
     .navBar {
         display: none;
     }
