@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+    h1 {
+        color: aqua;
+        font-size: 86px;
+    }
+
+    .navBar {
+        display: none;
+    }
+}
