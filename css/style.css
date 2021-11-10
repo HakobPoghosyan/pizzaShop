@@ -107,8 +107,6 @@ h1 {
     background-color: black;
     font-size: 36px;
     text-align: center;
-    width: 100%;
-    
 }
 
 .divMenu {
@@ -216,7 +214,6 @@ h1 {
     color: white;
     font-size: 40px;
     text-align: center;
-    width: 100%;
 }
 
 .about {
@@ -259,17 +256,14 @@ h1 {
 .imgMap {
     width: 100%;
     filter: grayscale(70%);
+    display: flex;
 }
 
-.img-div{
-    width: 100%;
-}
 .footer {
     background-color: #6C7A81;
     color: white;
     font-size: 36px;
     text-align: center;
-    width: 100%;
 }
 
 .div-footer {
@@ -312,12 +306,11 @@ h1 {
 }
 
 .button {
-    width: 103.5%;
+    width: 102%;
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 24px;
     cursor: pointer;
-    padding-right: 0;
 }
 
 .w3 {
@@ -328,7 +321,6 @@ h1 {
     font-size: 36px;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .a-w3 {
