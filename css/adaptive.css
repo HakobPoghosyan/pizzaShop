@@ -1,4 +1,7 @@
-@media only screen and (max-width: 600px) {
+zmedia only screen and (max-width: 635px){
+}
+
+@media only screen and (max-width: 601px){
     .navBar {
         display: none;
     }
