@@ -8,6 +8,7 @@ body, html {
     height: 100%;
     line-height: 1.5;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 .navBar {
@@ -107,8 +108,7 @@ h1 {
     font-size: 36px;
     text-align: center;
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+    
 }
 
 .divMenu {
@@ -123,6 +123,8 @@ h1 {
     margin-right: auto;
     text-align: center;
     padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .border a {
@@ -133,18 +135,20 @@ h1 {
     border: 1px solid;
     border-color: #616161;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.p-color {
+
+.p-btn {
     color: white;
+    font-size: 42px;
+    padding: 2% 4%;
 }
 
 .tab-btn {
-    color: white;
     background-color: black;
-    padding: 2% 13.5%;
     cursor: pointer;
+    width: 35%;
 }
 
 .tab-btn:hover {
@@ -213,8 +217,6 @@ h1 {
     font-size: 40px;
     text-align: center;
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .about {
@@ -230,6 +232,8 @@ h1 {
     text-align: left;
     line-height: 1.3;
     padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .chef {
@@ -266,8 +270,6 @@ h1 {
     font-size: 36px;
     text-align: center;
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .div-footer {
@@ -282,6 +284,8 @@ h1 {
     font-size: 24px;
     text-align: left;
     line-height: 1.3;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .fyi {
@@ -298,21 +302,22 @@ h1 {
     display: block;
     padding-top: 32px;
     padding-bottom: 78px;
+    padding-right: 16px;
 }
 
 .input {
     width: 100%;
     padding: 16px 8px;
     font-size: 24px;
-    align-items: center;
 }
 
 .button {
-    width: 102%;
+    width: 103.5%;
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 24px;
     cursor: pointer;
+    padding-right: 0;
 }
 
 .w3 {
