@@ -1,8 +1,10 @@
-zmedia only screen and (max-width: 635px){
-}
-
 @media only screen and (max-width: 601px){
     .navBar {
         display: none;
+    }
+    
+    .header-textTop {
+        font-size: 58px;
+        font-weight: 600;
     }
 }
