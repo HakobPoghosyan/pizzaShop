@@ -8,7 +8,6 @@ body, html {
     height: 100%;
     line-height: 1.5;
     font-size: 16px;
-    overflow-x: hidden;
 }
 
 .navBar {
