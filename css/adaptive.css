@@ -3,8 +3,8 @@
         display: none;
     }
     
-    .header-textTop {
-        font-size: 58px;
-        font-weight: 600;
+    .p-header {
+        font-size: 60px;
+        font-weight: bolder;
     }
 }

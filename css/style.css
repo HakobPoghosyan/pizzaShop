@@ -4,127 +4,119 @@
     font-family: 'Amatic SC', sans-serif;
 }
 
-body, html {
+body,html {
     height: 100%;
     line-height: 1.5;
-    font-size: 16px;
 }
 
-.navBar {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+h1 {
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+/*~~~~~~~~~~~~~~~~~~Nav~~~~~~~~~~~~~~~~~*/
+
+.navBar{
     background-color: rgba(0, 0, 0, 0.66);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
-.nav-padding {
-    padding: 8px 16px;
-}
-
-.nav-links ul li {
-    list-style: none;
+.nav{
     display: inline-flex;
 }
 
-.nav-links ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-.header {
-    width: 100%;
-    background-image:url(../images/pizza.jpg);
-    background-position: 0px 0px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    min-height: 90%;
-    filter: grayscale(50%);
-    align-items: center;
-}
-
-.header-div {
-    text-align: center;
-}
-
-.header-textTop {
-    color: white;
-    font-size: 100px;
-}
-
-.p-header{
-    padding-top: 24px;
-}
-
-.header-textCenter {
-    color: white;
-    font-size: 36px;
-    text-align: center;
-    background-color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-}
-
-.header-textBottom {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.nav-links {
     padding: 8px 16px;
+    color: white;
+    font-size: 24px;
 }
 
-.header-time {
-    color: white;
-    background-color: black;
-    font-size: 24px;
-    padding: 4px 8px;
-    text-align: center;
+.nav a {
+    text-decoration: none;
 }
 
 .navBar:hover {
     background-color: black;
 }
 
-.nav-links ul li :hover {
+.nav-links:hover {
     background-color: #DCDCDC;
     color: black;
 }
 
-.header-textCenter:hover {
-    background-color: #DCDCDC;
-    color: black;
+/*~~~~~~~~~~~~~~~~~Header~~~~~~~~~~~~~~~~~*/
+
+.header {
+    width: 100%;
+    min-height: 90%;
+    background-image: url(../images/pizza.jpg);
+    background-size: cover;
+    background-position: 0px 0px;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(50%);
+    align-items: center;
 }
 
-h1 {
-    font-weight: 400;
-    margin: 10px 0;
+.header-div {
+    text-align: center;
+    color: white;
 }
 
-.main {
+.header-div a {
+    text-decoration: none;
+}
+
+.p-header {
+    font-size: 100px;
+    margin-bottom: 18px;
+}
+
+.a-header {
+    font-size: 36px;
+    padding: 8px 16px;
     color: white;
     background-color: black;
-    font-size: 36px;
-    text-align: center;
 }
 
-.divMenu {
+.open {
     background-color: black;
-    padding-top: 64px;
-    padding-bottom: 120px;
+    font-size: 24px;
+    padding: 0px 8px;
+}
+
+.open-span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 8px 16px;
+}
+
+.a-header:hover {
+    background-color: #DCDCDC;
+    color: black;
+}
+
+/*~~~~~~~~~~~~~~~~~~Main~~~~~~~~~~~~~~~~~*/
+
+.main {
+    padding: 64px 16px;
+    background-color: black;
+    font-size: 36px;
+}
+
+.div-menu {
+    text-align: center;
+    color: white;
 }
 
 .border {
+    margin-top: 64px;
     max-width: 980px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    padding-top: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-.border a {
-    text-decoration: none;
 }
 
 .navLinks {
@@ -134,11 +126,9 @@ h1 {
     justify-content: space-around;
 }
 
-
 .p-btn {
-    color: white;
-    font-size: 42px;
-    padding: 2% 4%;
+    font-size: 36px;
+    padding: 12px 24px;
 }
 
 .tab-btn {
@@ -149,6 +139,11 @@ h1 {
 
 .tab-btn:hover {
     background-color: #F44336;
+}
+
+.tabs-item {
+    background-color: white;
+    color: black;
 }
 
 .h1-menu {
@@ -207,28 +202,30 @@ h1 {
     display: block;
 }
 
+/*~~~~~~~~~~~~~~~~~~Article~~~~~~~~~~~~~~~~~*/
+
 .article {
     background-color: #8B5F5B;
-    color: white;
-    font-size: 42px;
+    padding: 64px 16px;
     text-align: center;
 }
 
 .about {
-    padding-top: 64px;
-    padding-bottom: 80px;
+    font-size: 42px;
+    color: white;
 }
 
 .text-about {
+    font-size: 24px;
     max-width: 980px;
+    margin-top: 64px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 24px;
     text-align: left;
-    line-height: 1.3;
-    padding-top: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
+}
+
+.p-margin {
+    margin: 24px 0;
 }
 
 .chef {
@@ -239,20 +236,20 @@ h1 {
 }
 
 .img-padding {
-    padding-top: 8px;
+    margin: 16px 0;
     width: 100%;
 }
 
 .div-hours {
-    padding-top: 32px;
     display: flex;
     justify-content: flex-start;
-    line-height: 1.2;
 }
 
 .span-hours {
     margin-right: 33%;
 }
+
+/*~~~~~~~~~~~~~~~~~~myMap~~~~~~~~~~~~~~~~~*/
 
 .imgMap {
     width: 100%;
@@ -260,74 +257,76 @@ h1 {
     display: flex;
 }
 
+/*~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~*/
+
 .footer {
+    padding: 64px 16px;
     background-color: #6C7A81;
-    color: white;
-    font-size: 32px;
-    text-align: center;
 }
 
 .div-footer {
-    padding-top: 64px;
-    padding-bottom: 64px;  
+    font-size: 32px;
+    color: white;
+    text-align: center;
 }
 
 .text-footer {
-    max-width: 980px;
+    margin-top: 64px;
+    text-align: left;
+    font-size: 24px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 24px;
-    text-align: left;
-    line-height: 1.3;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 980px;
 }
 
-.fyi {
+.fyi{
+    padding: 0 8px;
     background-color: black;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 .h1-footer {
+    margin: 36px 0;
     font-size: 36px;
 }
 
 .form {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 78px;
     padding-right: 16px;
 }
 
 .input {
-    width: 100%;
     padding: 16px 8px;
+    width: 100%;
     font-size: 24px;
 }
 
 .button {
-    width: 100%;
     padding: 8px 8px;
+    width: 100%;
     font-size: 24px;
     cursor: pointer;
     box-sizing: content-box;
 }
 
+/*~~~~~~~~~~~~~~~~~~W3~~~~~~~~~~~~~~~~~*/
+
 .w3 {
+    padding: 48px 0;
     background-color: black;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    text-align: center;
     color: white;
     font-size: 36px;
-    display: flex;
-    justify-content: center;
 }
 
-.a-w3 {
+.p-w3 {
+    margin: 36px 0;
     color: white;
 }
 
-.a-w3:hover {
+.w3 a {
+    color: white;
+}
+
+.w3 a:hover {
     color: #4CAF50;
 }
